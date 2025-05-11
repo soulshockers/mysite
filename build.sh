@@ -28,3 +28,5 @@ if [ "$SUPERUSER_EXISTS" = "False" ]; then
 else
   echo "Superuser '${DJANGO_SUPERUSER_USERNAME}' already exists, skipping creation."
 fi
+
+printenv
