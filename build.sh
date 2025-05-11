@@ -6,7 +6,6 @@ set -o errexit
 pip install -r requirements.txt
 
 # Convert static asset files
-mkdir -p static && printenv > static/env.txt
 python manage.py collectstatic --no-input
 
 # Apply any outstanding database migrations
