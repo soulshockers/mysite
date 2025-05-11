@@ -146,7 +146,7 @@ MEDIA_URL = "/media/"
 # See https://docs.djangoproject.com/en/5.2/ref/settings/#std-setting-STORAGES
 STORAGES = {
     "default": {
-        "BACKEND": "django.core.files.storage.FileSystemStorage",
+        "BACKEND": os.environ.get('DEFAULT_STORAGE_BACKEND', default='django.core.files.storage.FileSystemStorage'),
     },
     # ManifestStaticFilesStorage is recommended in production, to prevent
     # outdated JavaScript / CSS assets being served from cache
