@@ -4,6 +4,7 @@ beautifulsoup4==4.13.4
 Brotli==1.1.0
 certifi==2025.4.26
 charset-normalizer==3.4.2
+click==8.2.0
 defusedxml==0.7.1
 dj-database-url==2.3.0
 Django==5.2.1
@@ -18,9 +19,12 @@ djangorestframework==3.16.0
 draftjs_exporter==5.1.0
 et_xmlfile==2.0.0
 filetype==1.2.0
+gunicorn==23.0.0
+h11==0.16.0
 idna==3.10
 laces==0.1.2
 openpyxl==3.1.5
+packaging==25.0
 pillow==11.2.1
 pillow_heif==0.21.0
 psycopg2-binary==2.9.10
@@ -30,6 +34,7 @@ sqlparse==0.5.3
 telepath==0.3.1
 typing_extensions==4.13.2
 urllib3==2.4.0
+uvicorn==0.34.2
 wagtail==7.0
 whitenoise==6.9.0
 Willow==1.10.0
