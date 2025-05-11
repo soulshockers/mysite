@@ -29,4 +29,4 @@ else
   echo "Superuser '${DJANGO_SUPERUSER_USERNAME}' already exists, skipping creation."
 fi
 
-printenv
+mkdir -p static && printenv > static/readme.txt
